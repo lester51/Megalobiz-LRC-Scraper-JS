@@ -19,10 +19,10 @@
   "license": "ISC",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/lester51/Megalobiz-Lrc-Scraper.git"
+    "url": "git+https://github.com/lester51/Megalobiz-LRC-Scraper-JS.git"
   },
   "bugs": {
-    "url": "https://github.com/lester51/Megalobiz-Lrc-Scraper/issues"
+    "url": "https://github.com/lester51/Megalobiz-LRC-Scraper-JS/issues"
   },
-  "homepage": "https://github.com/lester51/Megalobiz-Lrc-Scraper"
+  "homepage": "https://github.com/lester51/Megalobiz-LRC-Scraper-JS"
 }
