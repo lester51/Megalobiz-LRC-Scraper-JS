@@ -1,6 +1,6 @@
 {
   "name": "megalobiz-lrc-scraper",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A simple lyric(.lrc) config scraper on megalobiz and returns a promise/JSON Object that contains config file for lyric file(.lrc) for vivo music.",
   "main": "megalobiz.js",
   "scripts": {
@@ -8,15 +8,13 @@
   },
   "dependencies": {
    "axios": "^0.27.2",
-   "cheerio": "^1.0.0-rc.12",
+   "cheerio": "^1.0.0-rc.12"
   },
   "keywords": [
-    "megalobiz lyrics scraper",
-    "lyrics for vivo music",
-    ".lrc file config scraper"
+    "megalobiz-lyrics-scraper",
+    "lyrics-for-vivo-music",
+    "lrc-file-config-scraper"
   ],
-  "author": "HackMeSenpai",
-  "license": "ISC",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/lester51/Megalobiz-LRC-Scraper-JS.git"
@@ -24,5 +22,7 @@
   "bugs": {
     "url": "https://github.com/lester51/Megalobiz-LRC-Scraper-JS/issues"
   },
-  "homepage": "https://github.com/lester51/Megalobiz-LRC-Scraper-JS"
+  "homepage": "https://github.com/lester51/Megalobiz-LRC-Scraper-JS",
+  "author": "HackMeSenpai",
+  "license": "ISC"
 }
