@@ -5,7 +5,9 @@ module.exports.searchLRC = async (query)=>{
     if ((typeof query.query === 'string' && query.query.length !== 0 && query.hasOwnProperty("query")) === false){
         return {error:`[query] is a mandatory field and must always a string.`}
     }else{
-        url = `https://www.megalobiz.com/search/all?qry=${query.query.replace(/ /gi,"+")}`;
+        q = query.query.replace(/ /gi,"+")
+        console.log(q)
+        url = `https://www.megalobiz.com/search/all?qry=${q}`;
         try {
             let { data } = await axios.get(url)
             $ = cheerio.load(data);
