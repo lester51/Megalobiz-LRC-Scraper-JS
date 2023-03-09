@@ -1,6 +1,6 @@
 {
   "name": "megalobiz-lrc-scraper",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "A simple lyric(.lrc) config scraper on megalobiz and returns a promise/JSON Object that contains config file for lyric file(.lrc) for vivo music.",
   "main": "megalobiz.js",
   "scripts": {

@@ -6,7 +6,6 @@ module.exports.searchLRC = async (query)=>{
         return {error:`[query] is a mandatory field and must always a string.`}
     }else{
         q = query.query.replace(/ /gi,"+")
-        console.log(q)
         url = `https://www.megalobiz.com/search/all?qry=${q}`;
         try {
             let { data } = await axios.get(url)
